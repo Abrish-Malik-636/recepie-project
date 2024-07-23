@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            background-color: black;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        nav a,button {
+            margin-right: 50px;
+            color: yellow;
+            text-decoration: none;
+            margin-top: 7px;
+        }
+
+        #id1 {
+            margin-left: 90px;
+        }
+
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            margin-left: 85px;
+            border: 2px solid rgb(243, 64, 5);
+            border-radius: 5px;
+            padding: 8px;
+            background-color: rgb(243, 64, 5);
+            color: white;
+        }
+
+        P {
+            color: white;
+        }
+
+        span {
+            color: rgb(243, 64, 5);
+        }
+
+        div {
+
+            align-items: flex-start;
+            height: 50%;
+            width: 50%;
+        }
+
+        #parent {
+
+            height: 100%;
+            width: 100%;
+            margin: 50px;
+
+        }
+
+        #child1 {
+            height: 50%;
+            width: 50%;
+            padding-top: 30px;
+            margin-left: 50px;
+            line-height: 200%;
+        }
+        #child1 button{
+            line-height: 50%;
+            
+        }
+
+        #child2 {
+            height: 50%;
+            width: 50%;
+            margin-left: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a logo>PORT <span>FOLIO</span></a>
+        <a href="#" target="main" id="id1">Home</a>
+        <a href="account .html" target="main">About-me</a>
+        <a href="services.html" target="main">Services </a>
+        <a href="experience.html" target="main">Experience </a>
+        <a href="contact.html" target="main">Contact-us</a>
+        <button>Hire me</button>
+    </nav>
+    <main>
+        <div id="parent">
+            <div id="child1">
+                <p>I AM <span>  Muzdalfa Imtiaz </span></P>
+                <h1>FRONTEND DEVELOPER</h1>
+                <P>I will be professional soon</P>
+                <button>Download CV</button>
+            </div>
+            <div id="child2">
+                <img src="aan1.png" alt="---">
+                <!-- <img src="pic.png" alt="----"> -->
+                 <!-- <img src="WhatsApp_Image_2022-06-12_at_9.00.41_AM-removebg-preview (1).png" alt="#"> -->
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
